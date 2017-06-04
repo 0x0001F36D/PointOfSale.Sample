@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="PointOfSale.Contents.Additive.Infrastructure.AdditiveBase">
-    <Position X="4.5" Y="8.5" Width="2.5" />
+    <Position X="11.5" Y="10.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAQAAAAAAgAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Additive\Infrastructure\AdditiveBase.cs</FileName>
@@ -9,7 +9,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Additive.Items.CoconutJelly">
-    <Position X="2.75" Y="12" Width="1.5" />
+    <Position X="13" Y="16.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Additive\Items\CoconutJelly.cs</FileName>
@@ -17,7 +17,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Additive.Items.GrassJelly">
-    <Position X="5" Y="12" Width="1.5" />
+    <Position X="15.25" Y="16.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Additive\Items\GrassJelly.cs</FileName>
@@ -25,7 +25,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Additive.Items.Pearl">
-    <Position X="7.25" Y="12" Width="1.5" />
+    <Position X="17.5" Y="16.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Additive\Items\Pearl.cs</FileName>
@@ -33,7 +33,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Additive.Items.Pudding">
-    <Position X="9.5" Y="12" Width="1.5" />
+    <Position X="19.75" Y="16.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Additive\Items\Pudding.cs</FileName>
@@ -41,7 +41,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Additive.Items.RatNoodle">
-    <Position X="0.5" Y="12" Width="1.5" />
+    <Position X="10.75" Y="16.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Additive\Items\RatNoodle.cs</FileName>
@@ -49,7 +49,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Beverage.Infrastructure.BeverageBase">
-    <Position X="23.25" Y="0.5" Width="10" />
+    <Position X="0.5" Y="0.5" Width="10" />
     <TypeIdentifier>
       <HashCode>AAAgABAAQQIAgAAAIAgAAAQAQAAQACAAAAAAAAAECAA=</HashCode>
       <FileName>Contents\Beverage\Infrastructure\BeverageBase.cs</FileName>
@@ -57,42 +57,35 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Beverage.Items.Basic.BlackTea">
-    <Position X="2.75" Y="6" Width="9.75" />
+    <Position X="0.5" Y="6.75" Width="9.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Beverage\Items\Basic\BlackTea.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PointOfSale.Contents.Beverage.Items.Basic.GreenTea">
-    <Position X="13.25" Y="6" Width="9.75" />
+    <Position X="10.5" Y="6.75" Width="9.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Beverage\Items\Basic\GreenTea.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PointOfSale.Contents.Beverage.Items.Basic.OolongTea">
-    <Position X="23.75" Y="6" Width="9.75" />
+    <Position X="30.5" Y="6.75" Width="9.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Beverage\Items\Basic\OolongTea.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PointOfSale.Contents.Beverage.Items.Derived.MilkTea">
-    <Position X="34.25" Y="6" Width="9.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Contents\Beverage\Items\Derived\MilkTea.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="PointOfSale.Contents.Beverage.Items.Special.Ovaltine">
-    <Position X="44.5" Y="6" Width="9.5" />
+    <Position X="20.5" Y="6.75" Width="9.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Beverage\Items\Special\Ovaltine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PointOfSale.Contents.Common.AdditiveProvider" BaseTypeListCollapsed="true">
-    <Position X="29.75" Y="10.5" Width="4.75" />
+    <Position X="16.5" Y="10.75" Width="5" />
     <TypeIdentifier>
       <HashCode>CAACAAAAAgAEIBAACAAABAQAAABEAQAEAAAgAAAAAAA=</HashCode>
       <FileName>Contents\Common\AdditiveProvider.cs</FileName>
@@ -100,64 +93,43 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Common.BeverageHelper">
-    <Position X="9.75" Y="17" Width="5" />
+    <Position X="11" Y="19.75" Width="5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Common\BeverageHelper.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PointOfSale.Contents.Common.BeverageProvider" BaseTypeListCollapsed="true">
-    <Position X="35" Y="10.5" Width="4.25" />
+    <Position X="18.75" Y="0.5" Width="4.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAgAAAgAAIBAACAAAAAQAAABEAAAEAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAABgAAAgAAIBAACAAAAAQAAABAAAAEAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Common\BeverageProvider.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Common.PosException">
-    <Position X="15.25" Y="17" Width="2.5" />
+    <Position X="16.75" Y="19.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Common\PosException.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PointOfSale.Contents.Service.Common.Delivery">
-    <Position X="19.5" Y="14" Width="4.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Contents\Service\Common\Delivery.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PointOfSale.Contents.Service.Common.Reservation">
-    <Position X="12.75" Y="14" Width="3.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Contents\Service\Common\Reservation.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PointOfSale.Contents.Service.Common.Takeaway">
-    <Position X="17.25" Y="14" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Contents\Service\Common\Takeaway.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="PointOfSale.Contents.Service.Infrastructure.Guest">
-    <Position X="14.5" Y="20" Width="4" />
+    <Position X="0.5" Y="17" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAAAQAAAEgAAAQAQAAEIEAIACAAAAAAAAACA=</HashCode>
       <FileName>Contents\Service\Infrastructure\Guest.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PointOfSale.Contents.Service.Infrastructure.Report">
-    <Position X="9.75" Y="20" Width="4.25" />
+    <Position X="5" Y="17" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAABAQAAAAAAAAAAAAAAAAAAgAAACAAAgAAAAQA=</HashCode>
       <FileName>Contents\Service\Infrastructure\Report.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PointOfSale.Contents.Service.Infrastructure.OrderType">
-    <Position X="16" Y="8.5" Width="4.75" />
+    <Position X="23.5" Y="10.75" Width="4.75" />
     <TypeIdentifier>
       <HashCode>AAECAAAAQAAAEBAEgEAAAAAAAAAAYIAUAAAAAAAAAAs=</HashCode>
       <FileName>Contents\Service\Infrastructure\OrderType.cs</FileName>
@@ -165,57 +137,78 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="PointOfSale.Contents.Service.Site" BaseTypeListCollapsed="true">
-    <Position X="0.75" Y="17" Width="7.5" />
+    <Position X="0.5" Y="10.75" Width="7.5" />
     <TypeIdentifier>
       <HashCode>AAEABgAAQAAAARAQCAAAEAQAAAAAAAAEAAAAQgAQAAA=</HashCode>
       <FileName>Contents\Service\Site.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="PointOfSale.Contents.Service.Delivery">
+    <Position X="23.5" Y="16.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contents\Service\Delivery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointOfSale.Contents.Service.Reservation">
+    <Position X="31" Y="16.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contents\Service\Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointOfSale.Contents.Service.Takeaway">
+    <Position X="28.5" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contents\Service\Takeaway.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointOfSale.Contents.Beverage.Items.Mixed.MilkTea">
+    <Position X="0.5" Y="8.5" Width="9.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contents\Beverage\Items\Mixed\MilkTea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="PointOfSale.Contents.Additive.Infrastructure.IAdditive">
-    <Position X="7.25" Y="8.5" Width="2" />
+    <Position X="14.25" Y="10.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Additive\Infrastructure\IAdditive.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="PointOfSale.Contents.Beverage.Infrastructure.IBeverage">
-    <Position X="33.5" Y="0.5" Width="4.25" />
+    <Position X="10.75" Y="0.5" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAgABAAQQIAgAAAIAgAAAQAAAAAACAAAAAAAAAECAA=</HashCode>
       <FileName>Contents\Beverage\Infrastructure\IBeverage.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="PointOfSale.Contents.Common.IReflector&lt;TTarget&gt;">
-    <Position X="39.5" Y="10.5" Width="4" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Contents\Common\IReflector.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Enum Name="PointOfSale.Contents.Beverage.Infrastructure.AmountOfIce">
-    <Position X="38" Y="2" Width="1.5" />
+    <Position X="15.25" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAI=</HashCode>
       <FileName>Contents\Beverage\Infrastructure\AmountOfIce.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="PointOfSale.Contents.Beverage.Infrastructure.Size">
-    <Position X="38" Y="0.5" Width="1.5" />
+    <Position X="15.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>Contents\Beverage\Infrastructure\Size.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="PointOfSale.Contents.Beverage.Infrastructure.SweetnessLevel">
-    <Position X="39.75" Y="2" Width="1.5" />
+    <Position X="17" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAEAEAAAAAQAAAAAAAAAI=</HashCode>
       <FileName>Contents\Beverage\Infrastructure\SweetnessLevel.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="PointOfSale.Contents.Beverage.Infrastructure.Temperature">
-    <Position X="39.75" Y="0.5" Width="1.5" />
+    <Position X="17" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAIAAAAgAAAAAAAAAAAA=</HashCode>
       <FileName>Contents\Beverage\Infrastructure\Temperature.cs</FileName>

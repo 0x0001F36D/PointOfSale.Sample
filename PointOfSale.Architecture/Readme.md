@@ -1,5 +1,5 @@
-﻿# 🍀Point of Sale - Sample🍀
-## 🍀About This Project🍀
+﻿# 🍀Point of Sale - Architecture🍀
+## 🍀About🍀
 - 這是一套物件導向實作範例 ***(使用 Pos System 做為題材)***
 - 內含以下設計模式 ***(Design Pattern)***
   1. 單例模式 ***(Singleton Pattern)***
@@ -68,7 +68,5 @@
 ## 🍀License🍀
 [***Apache 2.0***][License]
 
-
-
 [Author]:https://github.com/0x0001F36D
-[License]:https://github.com/0x0001F36D/PointOfSale.Sample/blob/master/License
+[License]:https://github.com/0x0001F36D/PointOfSale.Sample/blob/master/PointOfSale.Architecture/License
