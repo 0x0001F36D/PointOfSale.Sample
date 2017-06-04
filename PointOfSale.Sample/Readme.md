@@ -1,6 +1,6 @@
 ﻿# 🍓Point of Sale - Sample🍓
 
-## 🍓***Code***🍓
+## 🍓 ***Code*** 🍓
 以下為範例程式碼 
 <br>連結 : [Source][]
 ```Csharp
@@ -78,7 +78,9 @@ namespace PointOfSale.Sample
     }
 }
 ```
-## 🍓***Reference***🍓
+## 🍓 ***Result*** 🍓
+![Result](/result.jpg)
+## 🍓 ***Reference*** 🍓
 [Point Of Sale - Architecture][Architecture]
 
 [Source]:https://github.com/0x0001F36D/PointOfSale.Sample/blob/master/PointOfSale.Sample/POS.cs
