@@ -79,7 +79,7 @@ namespace PointOfSale.Sample
 }
 ```
 ## 🍓 ***Result*** 🍓
-![Result](/result.jpg)
+![Result](/result.png)
 ## 🍓 ***Reference*** 🍓
 [***Point Of Sale - Architecture***][Architecture]
 
