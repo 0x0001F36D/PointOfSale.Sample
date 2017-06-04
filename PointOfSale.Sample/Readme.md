@@ -2,7 +2,7 @@
 
 ## 🍓 ***Code*** 🍓
 以下為範例程式碼 
-<br>連結 : [Source][]
+<br>連結 : ***[Source][]***
 ```Csharp
 namespace PointOfSale.Sample
 {
@@ -81,7 +81,14 @@ namespace PointOfSale.Sample
 ## 🍓 ***Result*** 🍓
 ![Result](/result.jpg)
 ## 🍓 ***Reference*** 🍓
-[Point Of Sale - Architecture][Architecture]
+[***Point Of Sale - Architecture***][Architecture]
+
+## 🍓 ***Author*** 🍓
+[***Viyrex***][Author]
+## 🍓 ***License*** 🍓
+[***Apache 2.0***][License]
 
 [Source]:https://github.com/0x0001F36D/PointOfSale.Sample/blob/master/PointOfSale.Sample/POS.cs
 [Architecture]:https://github.com/0x0001F36D/PointOfSale.Sample/tree/master/PointOfSale.Architecture
+[Author]:https://github.com/0x0001F36D
+[License]:https://github.com/0x0001F36D/PointOfSale.Sample/blob/master/PointOfSale.Architecture/License

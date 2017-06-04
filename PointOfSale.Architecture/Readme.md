@@ -1,5 +1,5 @@
-﻿# 🍀Point of Sale - Architecture🍀
-## 🍀About🍀
+﻿# 🍓Point of Sale - Architecture🍓
+## 🍓 ***About*** 🍓
 - 這是一套物件導向實作範例 ***(使用 Pos System 做為題材)***
 - 內含以下設計模式 ***(Design Pattern)***
   1. 單例模式 ***(Singleton Pattern)***
@@ -8,7 +8,7 @@
   4. 裝飾者模式 ***(Decorator Pattern)***
   5. 橋接模式 ***(Bridge Pattern)***
   6. 模板模式 ***(Template Pattern)***
-## 🍀Comment🍀
+## 🍓 ***Comment*** 🍓
 ### 命名空間介紹
 ---
 - ### ***PointOfSale.Contents.Service.Infrastructure***
@@ -60,12 +60,12 @@
   1. ***Pearl*** 類別 : 繼承自 ***AdditiveBase*** 類別之基本添加物類別 
   2. ***CoconutJelly*** 類別 : 繼承自 ***AdditiveBase*** 類別之基本添加物類別
 ---
-## 🍀Class Diagram🍀
+## 🍓 ***Class Diagram*** 🍓
 ![Architecture](/Architecture.png)
 
-## 🍀Author🍀
+## 🍓 ***Author*** 🍓
 [***Viyrex***][Author]
-## 🍀License🍀
+## 🍓 ***License*** 🍓
 [***Apache 2.0***][License]
 
 [Author]:https://github.com/0x0001F36D
