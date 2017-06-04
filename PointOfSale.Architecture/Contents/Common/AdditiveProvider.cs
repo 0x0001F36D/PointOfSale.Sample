@@ -7,7 +7,7 @@ using PointOfSale.Contents.Beverage.Infrastructure;
 
 namespace PointOfSale.Contents.Common
 {
-    public class AdditiveProvider : IReadOnlyDictionary<Type, IAdditive>, IReflector<IAdditive>
+    public class AdditiveProvider : IReadOnlyDictionary<Type, IAdditive>
     {
         /*
          * 享元模式 + 單例模式 + 代理模式
@@ -43,10 +43,10 @@ namespace PointOfSale.Contents.Common
         public IBeverage Remove(IBeverage beverage, params IAdditive[] additive)
             => additive.Aggregate(beverage, (b, a) => b.RemoveAdditive(a));
 
-        public IAdditive GetInstanse(string name, params object[] args)
+        public IAdditive GetInstanse(string name)
             => this.FirstOrDefault(x => x.Key.Name.Equals(name)).Value ?? throw new PosException("Type not loaded : " + name);
 
-        public IAdditive GetInstanse<TAdditive>(params object[] args) where TAdditive : IAdditive
+        public IAdditive GetInstanse<TAdditive>() where TAdditive : IAdditive
             => this.TryGetValue(typeof(TAdditive), out var t) ? t : throw new PosException("Type not loaded : "+typeof(TAdditive));
             
         private readonly Dictionary<Type, IAdditive> dict;

@@ -17,25 +17,25 @@ namespace PointOfSale.Sample
 
             //現場點餐，綠茶大杯加珍珠，微糖去冰
             //Order方法會返回一個編號用以查詢
-            var guest1 = site.Order(BeverageProvider.Context.GetInstanse("GreenTea", Size.Venti, AmountOfIce.Free, SweetnessLevel.Quarter, AdditiveProvider.Context.GetInstanse("Pearl")));
+            var guest1 = site.Order(BeverageProvider.Context.CreateInstance("GreenTea", Size.Venti, AmountOfIce.Free, SweetnessLevel.Quarter, AdditiveProvider.Context.GetInstanse("Pearl")));
             //顯示資料
             Console.WriteLine(site[guest1]);
             
 
             //預約現場取餐，奶茶大杯加椰果，少糖微冰
-            var guest2 = site.Order("Yuyu", "0978978778", BeverageProvider.Context.GetInstanse("MilkTea", Size.Venti, AmountOfIce.Easy, SweetnessLevel.Quarter, AdditiveProvider.Context.GetInstanse<CoconutJelly>()));
+            var guest2 = site.Order("Yuyu", "0978978778", BeverageProvider.Context.CreateInstance("MilkTea", Size.Venti, AmountOfIce.Easy, SweetnessLevel.Quarter, AdditiveProvider.Context.GetInstanse<CoconutJelly>()));
             //顯示資料
             Console.WriteLine(site[guest2]);
 
             //外送
             //奶茶大杯加椰果，少糖微冰
-            var _1st = BeverageProvider.Context.GetInstanse("MilkTea", Size.Venti, AmountOfIce.Easy, SweetnessLevel.Quarter, AdditiveProvider.Context.GetInstanse<CoconutJelly>());
+            var _1st = BeverageProvider.Context.CreateInstance("MilkTea", Size.Venti, AmountOfIce.Easy, SweetnessLevel.Quarter, AdditiveProvider.Context.GetInstanse<CoconutJelly>());
             //阿華田, 少糖 溫
-            var _2nd = BeverageProvider.Context.GetInstanse<Ovaltine>(Size.Grande, AmountOfIce.Free, SweetnessLevel.Quarter, Temperature.Warm);
+            var _2nd = BeverageProvider.Context.CreateInstance<Ovaltine>(Size.Grande, AmountOfIce.Free, SweetnessLevel.Quarter, Temperature.Warm);
             //烏龍茶大杯，少糖正常冰
-            var _3rd = BeverageProvider.Context.GetInstanse<OolongTea>(Size.Venti, AmountOfIce.Regular, SweetnessLevel.Half, Temperature.Cold);
+            var _3rd = BeverageProvider.Context.CreateInstance<OolongTea>(Size.Venti, AmountOfIce.Regular, SweetnessLevel.Half, Temperature.Cold);
             //奶茶大杯加布丁、粉條，七分糖半冰
-            var _4th = BeverageProvider.Context.GetInstanse("MilkTea", Size.Venti, AmountOfIce.Half, SweetnessLevel.Less, 
+            var _4th = BeverageProvider.Context.CreateInstance("MilkTea", Size.Venti, AmountOfIce.Half, SweetnessLevel.Less, 
                 AdditiveProvider.Context.GetInstanse<Pudding>(),
                 AdditiveProvider.Context.GetInstanse<RatNoodle>());
             var guest3 = site.Order("Yumiko", "073599999", "火星區青龍路300號769樓之87", _1st, _2nd, _3rd, _4th);

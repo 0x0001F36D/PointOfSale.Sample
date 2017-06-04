@@ -7,7 +7,7 @@ using PointOfSale.Contents.Beverage.Infrastructure;
 
 namespace PointOfSale.Contents.Common
 {
-    public class BeverageProvider : IReadOnlyList<Type> , IReflector<IBeverage>
+    public class BeverageProvider : IReadOnlyList<Type>
     {
 
         #region Singleton
@@ -46,7 +46,7 @@ namespace PointOfSale.Contents.Common
         IEnumerator IEnumerable.GetEnumerator() 
             => this.list.GetEnumerator();
 
-        public IBeverage GetInstanse(string name, params object[] args)
+        public IBeverage CreateInstance(string name, params object[] args)
         {
             var array = new object[]
             {
@@ -75,7 +75,7 @@ namespace PointOfSale.Contents.Common
            .Invoke(array) as IBeverage;
         }
 
-        public IBeverage GetInstanse<TBeverage>(params object[] args) where TBeverage : IBeverage
-            => this.GetInstanse(typeof(TBeverage).Name);
+        public IBeverage CreateInstance<TBeverage>(params object[] args) where TBeverage : IBeverage
+            => this.CreateInstance(typeof(TBeverage).Name);
     }
 }

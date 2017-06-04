@@ -1,6 +1,6 @@
 ﻿using PointOfSale.Contents.Service.Infrastructure;
 
-namespace PointOfSale.Contents.Service.Common
+namespace PointOfSale.Contents.Service
 {
     /// <summary>
     /// 電話預約

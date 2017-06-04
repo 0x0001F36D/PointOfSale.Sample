@@ -62,28 +62,28 @@
     <Compile Include="Contents\Beverage\Infrastructure\Size.cs" />
     <Compile Include="Contents\Beverage\Items\Basic\BlackTea.cs" />
     <Compile Include="Contents\Beverage\Items\Basic\GreenTea.cs" />
-    <Compile Include="Contents\Beverage\Items\Derived\MilkTea.cs" />
+    <Compile Include="Contents\Beverage\Items\Mixed\MilkTea.cs" />
     <Compile Include="Contents\Beverage\Items\Basic\OolongTea.cs" />
     <Compile Include="Contents\Beverage\Infrastructure\SweetnessLevel.cs" />
     <Compile Include="Contents\Beverage\Infrastructure\Temperature.cs" />
     <Compile Include="Contents\Beverage\Items\Special\Ovaltine.cs" />
     <Compile Include="Contents\Common\BeverageProvider.cs" />
-    <Compile Include="Contents\Common\IReflector.cs" />
-    <Compile Include="Contents\Service\Common\Delivery.cs" />
+    <Compile Include="Contents\Service\Delivery.cs" />
     <Compile Include="Contents\Service\Infrastructure\Guest.cs" />
     <Compile Include="Contents\Common\PosException.cs" />
     <Compile Include="Contents\Service\Infrastructure\Report.cs" />
     <Compile Include="Contents\Service\Infrastructure\OrderType.cs" />
-    <Compile Include="Contents\Service\Common\Reservation.cs" />
-    <Compile Include="Contents\Service\Common\Takeaway.cs" />
+    <Compile Include="Contents\Service\Reservation.cs" />
+    <Compile Include="Contents\Service\Takeaway.cs" />
     <Compile Include="Contents\Service\Site.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Contents\Architecture.cd" />
+    <None Include="License" />
+    <None Include="Architecture.cd" />
     <None Include="packages.config" />
+    <None Include="Readme.md" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

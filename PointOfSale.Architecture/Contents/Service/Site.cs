@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using PointOfSale.Contents.Beverage.Infrastructure;
 using PointOfSale.Contents.Common;
-using PointOfSale.Contents.Service.Common;
 using PointOfSale.Contents.Service.Infrastructure;
 
 namespace PointOfSale.Contents.Service
