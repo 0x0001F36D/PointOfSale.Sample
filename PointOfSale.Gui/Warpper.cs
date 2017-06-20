@@ -12,7 +12,7 @@ namespace PointOfSale.Gui
         public AmountOfIce AmountOfIce { get; set; }
         public Temperature Temperature { get; set; }
         public SweetnessLevel SweetnessLevel { get; set; }
-        public new Size Size { get; set; }
+        public Size Size { get; set; }
 
         public IBeverage Generate()
             => BeverageProvider.Context.CreateInstance(this.Beverage, this.AmountOfIce, this.Temperature, this.SweetnessLevel, this.Size, this.Additives);

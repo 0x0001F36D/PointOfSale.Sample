@@ -68,8 +68,6 @@
             //日營業收入
             Console.WriteLine($"Revenue: {report.Revenue}"); //顯示日營收
 
-            Console.WriteLine(Enum<AmountOfIce>.Parse("Free").GetType());
-
             Console.ReadKey();
         }
     }
