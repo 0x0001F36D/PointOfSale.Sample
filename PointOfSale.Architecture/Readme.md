@@ -28,10 +28,10 @@
   ##### 這個命名空間底下包含所有 **Contents** 命名空間下共用的類別
   1. ***AdditiveProvider*** 類別 : 物件提供者類別，使用 ***Reflection*** 技術動態載入組件中所有實作自 ***IAdditive*** 介面之添加物類別並初始化儲存於記憶體中，可使用 ***AdditiveProvider.Context.GetInstanse\<TAdditive\>() where TAdditive : IAdditive*** 或 ***AdditiveProvider.Context.GetInstanse()*** 方法取得存放於記憶體中的共用物件
 
-        p.s : 此類別實作了 ***單例設計模式*** 及 ***享元設計模式*** 
+        p.s : 此類別實作了 ***工廠模式***、***單例設計模式*** 及 ***享元設計模式*** 
   2. ***BeverageProvider*** 類別 : 物件提供者類別，使用 ***Reflection*** 技術動態取得組件中所有實作自 ***IBeverage*** 介面之飲品類別，可於呼叫 ***BeverageProvider.Context.CreateInstanse\<TBeverage\>() where TBeverage : IBeverage*** 或 ***BeverageProvider.Context.CreateInstanse()*** 方法後產生實體化之物件
 
-        p.s : 此類別實作了 ***單例設計模式***
+        p.s : 此類別實作了 ***工廠模式***、***單例設計模式***
   3. ***BeverageHelper*** 靜態類別 : 提供對 ***IBeverage 介面*** 的擴充功能支援
   4. ***PosException*** 類別 : 主要的例外類別，提供所有 **Contents** 命名空間下例外訊息的封裝
 ---

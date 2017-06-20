@@ -8,6 +8,7 @@
     using PointOfSale.Contents.Beverage.Items.Special;
     using PointOfSale.Contents.Common;
     using PointOfSale.Contents.Service;
+    using PointOfSale.Gui;
 
     class Pos
     {
@@ -66,6 +67,8 @@
 
             //日營業收入
             Console.WriteLine($"Revenue: {report.Revenue}"); //顯示日營收
+
+            Console.WriteLine(Enum<AmountOfIce>.Parse("Free").GetType());
 
             Console.ReadKey();
         }

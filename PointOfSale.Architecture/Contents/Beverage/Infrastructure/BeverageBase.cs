@@ -69,7 +69,7 @@ namespace PointOfSale.Contents.Beverage.Infrastructure
             return this;
         }
 
-        public string Detail()
+        public virtual string Detail()
             => $"Name: {this.Name}, Additives: {string.Join(", ", this.Additives.Select(a => a?.Name))}, Price: {this.Price}";
 
     }
