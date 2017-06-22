@@ -68,7 +68,6 @@
     <Compile Include="Contents\Beverage\Infrastructure\Temperature.cs" />
     <Compile Include="Contents\Beverage\Items\Special\Ovaltine.cs" />
     <Compile Include="Contents\Common\BeverageProvider.cs" />
-    <Compile Include="Contents\Common\I18NAttribute.cs" />
     <Compile Include="Contents\Service\Delivery.cs" />
     <Compile Include="Contents\Service\Infrastructure\Guest.cs" />
     <Compile Include="Contents\Common\PosException.cs" />

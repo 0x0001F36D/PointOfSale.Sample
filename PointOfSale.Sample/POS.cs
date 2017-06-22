@@ -1,15 +1,13 @@
 ﻿namespace PointOfSale.Sample
 {
-    using System;
-    using System.Linq;
     using PointOfSale.Contents.Additive.Items;
     using PointOfSale.Contents.Beverage.Infrastructure;
     using PointOfSale.Contents.Beverage.Items.Basic;
     using PointOfSale.Contents.Beverage.Items.Special;
     using PointOfSale.Contents.Common;
     using PointOfSale.Contents.Service;
-    using PointOfSale.Gui;
-
+    using System;
+    using System.Linq;
     class Pos
     {
         static void Main(string[] args)

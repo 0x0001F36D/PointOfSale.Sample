@@ -38,9 +38,11 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.4.0-preview1-25305-02\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -61,10 +63,6 @@
     <ProjectReference Include="..\PointOfSale.Architecture\PointOfSale.Architecture.csproj">
       <Project>{32d8cb18-a96c-442d-9ff3-cdc10a9654a0}</Project>
       <Name>PointOfSale.Architecture</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PointOfSale.Gui\PointOfSale.Gui.csproj">
-      <Project>{9ed9ef3f-6788-4b90-b29e-5d33a7bda2b6}</Project>
-      <Name>PointOfSale.Gui</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
